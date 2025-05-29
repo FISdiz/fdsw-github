@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <style>
+      .logo-text {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        fill: #2c3e50;
+        text-anchor: middle;
+      }
+      .name {
+        font-size: 32px;
+        letter-spacing: 2px;
+      }
+      .surname {
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        fill: #e74c3c;
+      }
+      .accent-line {
+        stroke: #e74c3c;
+        stroke-width: 2;
+        fill: none;
+      }
+    </style>
+  </defs>
+  
+  <!-- Línea decorativa superior -->
+  <line x1="120" y1="25" x2="280" y2="25" class="accent-line"/>
+  
+  <!-- Nombre -->
+  <text x="200" y="55" class="logo-text name">FELIPE</text>
+  
+  <!-- Apellido -->
+  <text x="200" y="80" class="logo-text surname">SALAZAR</text>
+  
+  <!-- Línea decorativa inferior -->
+  <line x1="120" y1="95" x2="280" y2="95" class="accent-line"/>
+  
+  <!-- Pequeños detalles decorativos -->
+  <circle cx="115" cy="25" r="2" fill="#e74c3c"/>
+  <circle cx="285" cy="25" r="2" fill="#e74c3c"/>
+  <circle cx="115" cy="95" r="2" fill="#e74c3c"/>
+  <circle cx="285" cy="95" r="2" fill="#e74c3c"/>
+</svg>
